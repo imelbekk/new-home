@@ -1,0 +1,129 @@
+@import url(../footer/footer.css);
+@import url(../section/section.css);
+@import url(../main/main.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+nav {
+  padding: 27px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav ul .home {
+  color: #0082F4;
+  border: 2px solid;
+  padding: 50px 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+nav button {
+  padding: 15px 30px;
+  background-color: #0082F4;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header_bottom {
+  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+}
+.header_bottom .hb_left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 80px;
+  margin-right: 100px;
+}
+.header_bottom .hb_left .hb_h6 {
+  color: #0080FD;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.header_bottom .hb_left .hb_h5 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  max-width: 380px;
+}
+.header_bottom .hb_left .hb_h5 span {
+  color: #0080FD;
+}
+.header_bottom .hb_left .hb_p {
+  margin-top: 15px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.6;
+  max-width: 400px;
+}
+.header_bottom .hb_left .hb_left-end {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+.header_bottom .hb_left .hb_left-end button {
+  padding: 20px 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0080FD;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header_bottom .hb_left .hb_left-end .player {
+  display: flex;
+  align-items: center;
+  border: 1px solid #0080FD;
+  border-radius: 10px;
+  padding: 17px 34px;
+  gap: 15px;
+  border-color: rgba(0, 130, 244, 0.2039215686);
+}
+.header_bottom .hb_left .hb_left-end .player h6 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,107 @@
+.main_top {
+  padding: 150px 150px;
+  display: flex;
+  gap: 150px;
+}
+.main_top img {
+  width: 486px;
+  height: 486px;
+}
+.main_top .mt_right {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.main_top .mt_right h6 {
+  color: #0082F4;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.main_top .mt_right h5 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.main_top .mt_right p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 20px;
+}
+.main_top .mt_right button {
+  width: 193px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #0082F4;
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.main_bottom {
+  padding: 180px 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.main_bottom h5 {
+  text-align: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 48.44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+.main_bottom .mb_boxs {
+  display: flex;
+  gap: 50px;
+}
+.main_bottom .mb_boxs .mb_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.main_bottom .mb_boxs .mb_box h6 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  margin-top: 50px;
+}
+.main_bottom .mb_boxs .mb_box p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 324px;
+}
+.main_bottom .mb_boxs .mb_box img {
+  width: 150px;
+  height: 150px;
+}/*# sourceMappingURL=main.css.map */
